@@ -1,0 +1,6 @@
+com\goibibo\flightsbooking\GoibiboPOMFramework.class
+utilities\CreateScreenshot.class
+com\goibibo\flightsbooking\GoibiboPOM.class
+extentreports\ExtentReportFactory.class
+testbase\TestSuiteBase.class
+com\goibibo\flightsbooking\GoibiboHomeFactory.class

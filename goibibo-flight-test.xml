@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Goibibo-Flight TestSuite">
+<test name="Chrome Test">
+<parameter name="platform" value="Windows 10"></parameter>
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="url" value="https://www.goibibo.com/"></parameter>
+	<classes>
+		<class name="com.goibibo.flightsbooking.GoibiboPOMFramework"></class>
+	</classes>
+	</test>
+<test name="Firefox Test">
+<parameter name="platform" value="Windows 10"></parameter>
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="url" value="https://www.goibibo.com/"></parameter>
+	<classes>
+		<class name="com.goibibo.flightsbooking.GoibiboPOMFramework"></class>
+	</classes>
+	</test>	
+</suite>

@@ -1,0 +1,7 @@
+[node]
+detect-drivers = false
+
+[[node.driver-configuration]]
+display-name = "firefox"
+stereotype = '{"browserName": "chrome", "platformName": "Windows 10"}'
+max-sessions = 10

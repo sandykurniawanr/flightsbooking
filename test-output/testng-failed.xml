@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Goibibo-Flight TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="platform" value="Windows 10"/>
+    <parameter name="url" value="https://www.goibibo.com/"/>
+    <classes>
+      <class name="com.goibibo.flightsbooking.GoibiboPOMFramework">
+        <methods>
+          <include name="setUp"/>
+          <include name="startReporter"/>
+          <include name="tearDown"/>
+          <include name="testWithFactoryPage"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.goibibo.flightsbooking.GoibiboPOMFramework -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="5" name="Firefox Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="platform" value="Windows 10"/>
+    <parameter name="url" value="https://www.goibibo.com/"/>
+    <classes>
+      <class name="com.goibibo.flightsbooking.GoibiboPOMFramework">
+        <methods>
+          <include name="startReporter"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testWithFactoryPage"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.goibibo.flightsbooking.GoibiboPOMFramework -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Goibibo-Flight TestSuite] -->

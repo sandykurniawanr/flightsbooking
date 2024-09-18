@@ -1,0 +1,253 @@
+20:51:16.496 DEBUG testng.TestNG -suiteXmlPath: "C:\Users\Sandy\Documents\Selenium Learning\Workspace\flightsbooking\goibibo-flight-test.xml"
+20:51:16.646 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:null] 1772797615
+20:51:16.646 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.648 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.648 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.649 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.650 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:null] 461369334
+20:51:16.650 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.650 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.651 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.651 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.652 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:null] 1120214960
+20:51:16.652 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.652 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.652 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.652 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.653 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.afterClass()[pri:0, instance:null] 505533967
+20:51:16.653 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.653 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.653 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.653 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.656 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.afterMethod(org.testng.ITestResult)[pri:0, instance:null] -2050893747
+20:51:16.656 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.656 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.656 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.656 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.659 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@39de3d36] 93017191
+20:51:16.659 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.659 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.659 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.659 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.660 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOMFramework.testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@39de3d36] 1740871781
+20:51:16.660 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.660 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.660 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.660 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.661 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@39de3d36] -1906553856
+20:51:16.661 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.661 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.661 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.661 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.669 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:null] 1772797615
+20:51:16.670 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.670 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.670 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.670 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.671 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:null] 461369334
+20:51:16.671 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.671 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.671 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.671 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.672 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:null] 1120214960
+20:51:16.672 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.672 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.672 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.672 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.673 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.afterClass()[pri:0, instance:null] 505533967
+20:51:16.673 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.673 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.673 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.673 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.675 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.afterMethod(org.testng.ITestResult)[pri:0, instance:null] -2050893747
+20:51:16.675 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.675 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.675 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.675 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.675 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@53f6fd09] 530846778
+20:51:16.675 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.675 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.675 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.676 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.676 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOMFramework.testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@53f6fd09] -2116265928
+20:51:16.676 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.676 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.676 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.676 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:16.676 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@53f6fd09] -1468724269
+20:51:16.676 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:16.676 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:16.676 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:16.677 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:25.589 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOMFramework.testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@39de3d36] 1740871781
+20:51:25.589 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:25.589 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:25.589 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:25.589 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:51:25.593 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOMFramework.testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@53f6fd09] -2116265928
+20:51:25.593 TRACE internal.Graph -[Graph] ================ SORTING
+20:51:25.593 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:51:25.593 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:51:25.593 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:13.945 DEBUG testng.TestNG -suiteXmlPath: "C:\Users\Sandy\Documents\Selenium Learning\Workspace\flightsbooking\goibibo-flight-test.xml"
+20:53:14.078 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:null] 1772797615
+20:53:14.078 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.080 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.080 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.080 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.081 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:null] 461369334
+20:53:14.081 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.081 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.081 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.081 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.084 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:null] 1120214960
+20:53:14.084 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.084 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.084 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.084 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.085 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.afterClass()[pri:0, instance:null] 505533967
+20:53:14.085 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.085 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.085 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.085 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.088 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.afterMethod(org.testng.ITestResult)[pri:0, instance:null] -2050893747
+20:53:14.088 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.088 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.088 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.088 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.090 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@1603cd68] -508500839
+20:53:14.090 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.090 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.090 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.091 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.091 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOMFramework.testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@1603cd68] 1139353751
+20:53:14.091 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.091 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.091 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.091 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.092 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@1603cd68] 1786895410
+20:53:14.092 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.092 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.093 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.093 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.100 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:null] 1772797615
+20:53:14.100 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.100 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.100 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.101 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.101 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:null] 461369334
+20:53:14.101 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.101 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.102 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.102 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.103 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:null] 1120214960
+20:53:14.103 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.103 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.103 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.103 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.103 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.afterClass()[pri:0, instance:null] 505533967
+20:53:14.104 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.104 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.104 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.104 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.105 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.afterMethod(org.testng.ITestResult)[pri:0, instance:null] -2050893747
+20:53:14.105 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.105 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.105 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.105 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.105 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4b40f651] 384699778
+20:53:14.106 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.106 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.106 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.106 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.106 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOMFramework.testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4b40f651] 2032554368
+20:53:14.106 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.106 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.106 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.106 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:53:14.106 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4b40f651] -1614871269
+20:53:14.106 TRACE internal.Graph -[Graph] ================ SORTING
+20:53:14.107 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:53:14.107 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:53:14.107 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.420 DEBUG testng.TestNG -suiteXmlPath: "C:\Users\Sandy\Documents\Selenium Learning\Workspace\flightsbooking\goibibo-flight-test.xml"
+20:54:58.548 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:null] 1772797615
+20:54:58.548 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.550 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.550 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.550 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.551 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:null] 461369334
+20:54:58.551 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.551 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.551 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.552 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.553 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:null] 1120214960
+20:54:58.553 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.553 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.553 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.553 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.554 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.afterClass()[pri:0, instance:null] 505533967
+20:54:58.554 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.554 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.554 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.555 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.557 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.afterMethod(org.testng.ITestResult)[pri:0, instance:null] -2050893747
+20:54:58.557 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.557 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.557 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.557 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.560 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@1603cd68] -508500839
+20:54:58.560 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.560 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.560 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.560 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.560 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOMFramework.testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@1603cd68] 1139353751
+20:54:58.561 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.561 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.561 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.561 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.562 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@1603cd68] 1786895410
+20:54:58.562 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.562 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.562 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.562 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.570 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:null] 1772797615
+20:54:58.570 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.570 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.570 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.570 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.571 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:null] 461369334
+20:54:58.571 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.571 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.571 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.571 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.572 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:null] 1120214960
+20:54:58.573 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.573 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.573 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.573 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.573 TRACE internal.Graph -[Graph] ADDING NODE TestSuiteBase.afterClass()[pri:0, instance:null] 505533967
+20:54:58.573 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.573 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.573 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.574 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.575 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.afterMethod(org.testng.ITestResult)[pri:0, instance:null] -2050893747
+20:54:58.575 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.575 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.575 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.575 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.575 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4b40f651] 384699778
+20:54:58.575 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.575 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.575 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.576 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.576 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOMFramework.testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4b40f651] 2032554368
+20:54:58.576 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.576 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.576 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.576 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+20:54:58.576 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4b40f651] -1614871269
+20:54:58.576 TRACE internal.Graph -[Graph] ================ SORTING
+20:54:58.576 TRACE internal.Graph -[Graph] =============== DONE SORTING
+20:54:58.576 TRACE internal.Graph -[Graph] ====== SORTED NODES
+20:54:58.576 TRACE internal.Graph -[Graph] ====== END SORTED NODES
