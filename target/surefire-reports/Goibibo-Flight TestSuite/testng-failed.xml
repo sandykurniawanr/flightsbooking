@@ -8,8 +8,8 @@
     <classes>
       <class name="com.goibibo.flightsbooking.GoibiboPOMFramework">
         <methods>
-          <include name="startReporter"/>
           <include name="setUp"/>
+          <include name="startReporter"/>
           <include name="tearDown"/>
           <include name="testWithFactoryPage"/>
           <include name="afterMethod"/>
@@ -18,21 +18,4 @@
       </class> <!-- com.goibibo.flightsbooking.GoibiboPOMFramework -->
     </classes>
   </test> <!-- Chrome Test(failed) -->
-  <test thread-count="5" name="Firefox Test(failed)" verbose="0">
-    <parameter name="browser" value="firefox"/>
-    <parameter name="platform" value="Windows 10"/>
-    <parameter name="url" value="https://www.goibibo.com/"/>
-    <classes>
-      <class name="com.goibibo.flightsbooking.GoibiboPOMFramework">
-        <methods>
-          <include name="startReporter"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="testWithFactoryPage"/>
-          <include name="afterMethod"/>
-          <include name="afterClass"/>
-        </methods>
-      </class> <!-- com.goibibo.flightsbooking.GoibiboPOMFramework -->
-    </classes>
-  </test> <!-- Firefox Test(failed) -->
 </suite> <!-- Failed suite [Goibibo-Flight TestSuite] -->

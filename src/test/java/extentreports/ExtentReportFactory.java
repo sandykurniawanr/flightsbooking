@@ -2,6 +2,7 @@ package extentreports;
 
 
 import java.io.IOException;
+import java.lang.reflect.Method;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
@@ -30,12 +31,12 @@ public class ExtentReportFactory {
 	}
 	
 	@AfterMethod
-	public void afterMethod(ITestResult testResult) throws IOException{
+	public void afterMethod(ITestResult testResult, Method method) throws IOException{
 		if(testResult.getStatus() == ITestResult.FAILURE) {
 			String ssdirectory = CreateScreenshot.takeScreenshot(driver);
 			test.fail("Flight Tab doesnt work").addScreenCaptureFromPath(ssdirectory);
 		} else if (testResult.getStatus() == ITestResult.SUCCESS) {
-			test.log(Status.PASS, "Flight Tab Work");
+			test.log(Status.PASS, method.getName() + " Success");
 		} else {
 			test.log(Status.SKIP, "Test Skipped");
 		}

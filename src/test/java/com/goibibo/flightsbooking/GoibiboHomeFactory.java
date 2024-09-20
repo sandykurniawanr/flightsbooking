@@ -138,7 +138,6 @@ public class GoibiboHomeFactory {
 	}
 	
 	public void chooseFlightDates(String chosenMonth, String flightDates) {
-		wait.until(ExpectedConditions.visibilityOfAllElements(flightDate));
 		for(WebElement month : flightDate) {
 			if(month.getText().contains(chosenMonth)) {
 				List<WebElement> validFlightDays = month.findElements(By.xpath("//div[contains(text(),'"
@@ -146,7 +145,7 @@ public class GoibiboHomeFactory {
 				test.info("Selected Month: " + month.getText());
 				for(WebElement days: validFlightDays) {
 					if(days.getText().equalsIgnoreCase(flightDates)) {
-						days.click();
+						wait.until(ExpectedConditions.elementToBeClickable(days)).click();
 						break;
 					}
 				}

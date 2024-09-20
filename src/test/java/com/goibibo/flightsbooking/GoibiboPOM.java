@@ -36,7 +36,7 @@ public class GoibiboPOM extends ExtentReportFactory{
 	}
 	
 	@Test
-	public void testWithFactoryPage() throws InterruptedException {
+	public void testGoibiboFlightTab() throws InterruptedException {
 		test = extent.createTest("Goibibo Flight Tab Test");
 		homePage = new GoibiboHomeFactory(driver, test);
 		homePage.clickPopUpClose();
@@ -48,7 +48,7 @@ public class GoibiboPOM extends ExtentReportFactory{
 		homePage.clickFlightDeparture();
 		homePage.clickNextMonthBtn();	
 		homePage.clickPreviousMonthBtn();
-		homePage.chooseFlightDates("September 2024", "17");
+		homePage.chooseFlightDates("September 2024", "25");
 		homePage.clickFlightReturn(); 
 		homePage.clickFlightReturn();
 		homePage.chooseFlightDates("October 2024", "25");

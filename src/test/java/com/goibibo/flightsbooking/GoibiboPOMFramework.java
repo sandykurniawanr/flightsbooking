@@ -7,7 +7,7 @@ import testbase.TestSuiteBase;
 public class GoibiboPOMFramework extends TestSuiteBase{
 	
 	@Test
-	public void testWithFactoryPage() throws InterruptedException {
+	public void testGoibiboFlightTab() throws InterruptedException {
 		homePage.clickPopUpClose();
 		homePage.clickFlightOriginField();
 		homePage.sendFlightLocationKeys("jakarta");

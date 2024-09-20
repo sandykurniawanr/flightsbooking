@@ -1,105 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-17T13:03:05 WIB" name="Goibibo-Flight TestSuite" finished-at="2024-09-17T13:03:24 WIB" duration-ms="18765">
+  <suite started-at="2024-09-20T15:30:58 WIB" name="Default suite" finished-at="2024-09-20T15:31:04 WIB" duration-ms="6076">
     <groups>
     </groups>
-    <test started-at="2024-09-17T13:03:05 WIB" name="Chrome Test" finished-at="2024-09-17T13:03:11 WIB" duration-ms="6223">
-      <class name="com.goibibo.flightsbooking.GoibiboPOMFramework">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@3a62c01e]" started-at="2024-09-17T13:03:05 WIB" name="setUp" finished-at="2024-09-17T13:03:09 WIB" duration-ms="3736" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows 10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.goibibo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@3a62c01e]" started-at="2024-09-17T13:03:09 WIB" name="testWithFactoryPage" finished-at="2024-09-17T13:03:11 WIB" duration-ms="2382" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWithFactoryPage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@3a62c01e]" started-at="2024-09-17T13:03:11 WIB" name="afterMethod" finished-at="2024-09-17T13:03:11 WIB" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testWithFactoryPage status=SUCCESS method=GoibiboPOMFramework.testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@3a62c01e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@3a62c01e]" started-at="2024-09-17T13:03:11 WIB" name="afterClass" finished-at="2024-09-17T13:03:11 WIB" duration-ms="83" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.goibibo.flightsbooking.GoibiboPOMFramework -->
-    </test> <!-- Chrome Test -->
-    <test started-at="2024-09-17T13:03:11 WIB" name="Firefox Test" finished-at="2024-09-17T13:03:24 WIB" duration-ms="12525">
-      <class name="com.goibibo.flightsbooking.GoibiboPOMFramework">
-        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4763c727]" started-at="2024-09-17T13:03:05 WIB" name="startReporter" finished-at="2024-09-17T13:03:05 WIB" duration-ms="125" status="PASS">
+    <test started-at="2024-09-20T15:30:58 WIB" name="Default test" finished-at="2024-09-20T15:31:04 WIB" duration-ms="6076">
+      <class name="com.goibibo.flightsbooking.GoibiboPOM">
+        <test-method is-config="true" signature="startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368]" started-at="2024-09-20T15:30:58 WIB" name="startReporter" finished-at="2024-09-20T15:30:58 WIB" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReporter -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4763c727]" started-at="2024-09-17T13:03:11 WIB" name="setUp" finished-at="2024-09-17T13:03:17 WIB" duration-ms="5282" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368]" started-at="2024-09-20T15:30:58 WIB" name="setUp" finished-at="2024-09-20T15:31:02 WIB" duration-ms="3759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGoibiboFlightTab()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368]" started-at="2024-09-20T15:31:02 WIB" name="testGoibiboFlightTab" finished-at="2024-09-20T15:31:04 WIB" duration-ms="2206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoibiboFlightTab -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368]" started-at="2024-09-20T15:31:04 WIB" name="afterMethod" finished-at="2024-09-20T15:31:04 WIB" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Windows 10]]>
+                <![CDATA[[TestResult name=testGoibiboFlightTab status=SUCCESS method=GoibiboPOM.testGoibiboFlightTab()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368] output={null}]]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[https://www.goibibo.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4763c727]" started-at="2024-09-17T13:03:17 WIB" name="testWithFactoryPage" finished-at="2024-09-17T13:03:23 WIB" duration-ms="6642" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWithFactoryPage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4763c727]" started-at="2024-09-17T13:03:23 WIB" name="afterMethod" finished-at="2024-09-17T13:03:23 WIB" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testWithFactoryPage status=SUCCESS method=GoibiboPOMFramework.testWithFactoryPage()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4763c727] output={null}]]]>
+                <![CDATA[public void com.goibibo.flightsbooking.GoibiboPOM.testGoibiboFlightTab() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4763c727]" started-at="2024-09-17T13:03:23 WIB" name="afterClass" finished-at="2024-09-17T13:03:24 WIB" duration-ms="599" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368]" started-at="2024-09-20T15:31:04 WIB" name="afterClass" finished-at="2024-09-20T15:31:04 WIB" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOMFramework@4763c727]" started-at="2024-09-17T13:03:24 WIB" name="tearDown" finished-at="2024-09-17T13:03:24 WIB" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368]" started-at="2024-09-20T15:31:04 WIB" name="tearDown" finished-at="2024-09-20T15:31:05 WIB" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.goibibo.flightsbooking.GoibiboPOMFramework -->
-    </test> <!-- Firefox Test -->
-  </suite> <!-- Goibibo-Flight TestSuite -->
+      </class> <!-- com.goibibo.flightsbooking.GoibiboPOM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
