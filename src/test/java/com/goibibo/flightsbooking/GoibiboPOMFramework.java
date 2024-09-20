@@ -17,7 +17,7 @@ public class GoibiboPOMFramework extends TestSuiteBase{
 		homePage.clickFlightDeparture();
 		homePage.clickNextMonthBtn();
 		homePage.clickPreviousMonthBtn();
-		homePage.chooseFlightDates("September 2024", "18");
+		homePage.chooseFlightDates("September 2024", "25");
 		homePage.clickFlightReturn();
 		homePage.clickFlightReturn();
 		homePage.chooseFlightDates("October 2024", "25");
