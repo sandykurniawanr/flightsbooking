@@ -1,26 +1,41 @@
 package com.goibibo.flightsbooking;
 
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import testbase.TestSuiteBase;
+import utilities.ExcelUtility;
 
 public class GoibiboPOMFramework extends TestSuiteBase{
 	
-	@Test
-	public void testGoibiboFlightTab() throws InterruptedException {
+	@DataProvider(name = "flightData")
+	public Object[][] dataProvider(){
+		Object[][] testData = ExcelUtility.getTestData("Flight_Tab");
+		return testData;
+	}
+	
+	@Test(dataProvider = "flightData")
+	public void testGoibiboFlightTab(String fromKeyword, 
+			String fromCode, 
+			String toKeyword, 
+			String toCode,
+			String departureMonth, 
+			String departureDate, 
+			String returnMonth, 
+			String returnDate, 
+			String seat) throws InterruptedException {
 		homePage.clickPopUpClose();
 		homePage.clickFlightOriginField();
-		homePage.sendFlightLocationKeys("jakarta");
-		homePage.clickAutoSuggestions("CGK");
-		homePage.sendFlightLocationKeys("denpasar");
-		homePage.clickAutoSuggestions("DPS");
+		homePage.sendFlightLocationKeys(fromKeyword);
+		homePage.clickAutoSuggestions(fromCode);
+		homePage.sendFlightLocationKeys(toKeyword);
+		homePage.clickAutoSuggestions(toCode);
 		homePage.clickFlightDeparture();
 		homePage.clickNextMonthBtn();
-		homePage.clickPreviousMonthBtn();
-		homePage.chooseFlightDates("September 2024", "25");
+		homePage.chooseFlightDates(departureMonth, departureDate);
 		homePage.clickFlightReturn();
 		homePage.clickFlightReturn();
-		homePage.chooseFlightDates("October 2024", "25");
+		homePage.chooseFlightDates(returnMonth, returnDate);
 		homePage.clickTravelerField();
 		homePage.clickAddAdult(2);
 		homePage.clickAddChildren(2);
@@ -28,7 +43,7 @@ public class GoibiboPOMFramework extends TestSuiteBase{
 		homePage.clickDeductAdult(1);
 		homePage.clickDeductChildren(1);
 		homePage.clickDeductInfant(1);
-		homePage.chooseTravelClass("Economy");
+		homePage.chooseTravelClass(seat);
 		homePage.clickDoneBtn();
 		homePage.clickSearchFlightBtn();
 	}

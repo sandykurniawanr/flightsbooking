@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Goibibo_Flight_TestSuite" class="navigator-link">
-              <span class="suite-name border-failed">Goibibo-Flight TestSuite</span>
+              <span class="suite-name border-passed">Goibibo-Flight TestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Goibibo_Flight_TestSuite" class="hide-methods failed suite-Goibibo_Flight_TestSuite"> (hide)</a> <!-- hide-methods failed suite-Goibibo_Flight_TestSuite -->
-                      <a href="#" panel-name="suite-Goibibo_Flight_TestSuite" class="show-methods failed suite-Goibibo_Flight_TestSuite"> (show)</a> <!-- show-methods failed suite-Goibibo_Flight_TestSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-Goibibo_Flight_TestSuite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Goibibo_Flight_TestSuite" title="com.goibibo.flightsbooking.GoibiboPOMFramework" class="method navigator-link" hash-for-method="testWithFactoryPage">testWithFactoryPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Goibibo_Flight_TestSuite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,7 +103,12 @@
                     <div class="method-list-content passed suite-Goibibo_Flight_TestSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Goibibo_Flight_TestSuite" title="com.goibibo.flightsbooking.GoibiboPOMFramework" class="method navigator-link" hash-for-method="testWithFactoryPage">testWithFactoryPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Goibibo_Flight_TestSuite" title="com.goibibo.flightsbooking.GoibiboPOMFramework" class="method navigator-link" hash-for-method="testGoibiboFlightTab(Jakarta, CGK, Denpasar, DPS, October, 10, November, 25, Business)">testGoibiboFlightTab(Jakarta, CGK, Denpasar, DPS, October, 10, November, 25, Business)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Goibibo_Flight_TestSuite" title="com.goibibo.flightsbooking.GoibiboPOMFramework" class="method navigator-link" hash-for-method="testGoibiboFlightTab(Jakarta, CGK, Denpasar, DPS, October, 10, November, 25, Business)">testGoibiboFlightTab(Jakarta, CGK, Denpasar, DPS, October, 10, November, 25, Business)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Goibibo_Flight_TestSuite -->
@@ -132,45 +123,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Goibibo_Flight_TestSuite" class="panel Goibibo_Flight_TestSuite">
-          <div class="suite-Goibibo_Flight_TestSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.goibibo.flightsbooking.GoibiboPOMFramework</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testWithFactoryPage">
-                  </a> <!-- testWithFactoryPage -->
-                  <span class="method-name">testWithFactoryPage</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;sc-12foipm-2 eTBlJr fswFld &quot; style=&quot;width: 142px;&quot;&gt;...&lt;/div&gt; is not clickable at point (999, 260). Other element would receive the click: &lt;input type=&quot;text&quot; value=&quot;&quot;&gt;
-  (Session info: chrome=128.0.6613.138)
-Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [9115988de3aa192d6e134ec47929ef50, clickElement {id=f.7628CCA4EC787FA632FEEF9483F4DE0E.d.103524328E9564CA824753BB4B8E0A9E.e.99}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.56.1:4444/sess..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[RemoteWebDriver: chrome on Windows 10 (9115988de3aa192d6e134ec47929ef50)] -&gt; xpath: (//div[@class=&apos;sc-12foipm-2 eTBlJr fswFld &apos;])[3]]
-Session ID: 9115988de3aa192d6e134ec47929ef50
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-	at com.goibibo.flightsbooking.GoibiboHomeFactory.clickFlightDeparture(GoibiboHomeFactory.java:121)
-	at com.goibibo.flightsbooking.GoibiboPOMFramework.testWithFactoryPage(GoibiboPOMFramework.java:17)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Goibibo_Flight_TestSuite-class-failed -->
           <div class="suite-Goibibo_Flight_TestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -179,9 +131,18 @@ Session ID: 9115988de3aa192d6e134ec47929ef50
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testWithFactoryPage">
-                  </a> <!-- testWithFactoryPage -->
-                  <span class="method-name">testWithFactoryPage</span>
+                  <a name="testGoibiboFlightTab(Jakarta, CGK, Denpasar, DPS, October, 10, November, 25, Business)">
+                  </a> <!-- testGoibiboFlightTab(Jakarta, CGK, Denpasar, DPS, October, 10, November, 25, Business) -->
+                  <span class="method-name">testGoibiboFlightTab</span>
+                  <span class="parameters">(Jakarta,CGK,Denpasar,DPS,October,10,November,25,Business)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGoibiboFlightTab(Jakarta, CGK, Denpasar, DPS, October, 10, November, 25, Business)">
+                  </a> <!-- testGoibiboFlightTab(Jakarta, CGK, Denpasar, DPS, October, 10, November, 25, Business) -->
+                  <span class="method-name">testGoibiboFlightTab</span>
+                  <span class="parameters">(Jakarta,CGK,Denpasar,DPS,October,10,November,25,Business)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -254,18 +215,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testWithFactoryPage')
+data.setCell(0, 1, 'testGoibiboFlightTab')
 data.setCell(0, 2, 'com.goibibo.flightsbooking.GoibiboPOMFramework')
-data.setCell(0, 3, 21714);
+data.setCell(0, 3, 6587);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testWithFactoryPage')
+data.setCell(1, 1, 'testGoibiboFlightTab')
 data.setCell(1, 2, 'com.goibibo.flightsbooking.GoibiboPOMFramework')
-data.setCell(1, 3, 7422);
+data.setCell(1, 3, 3270);
 window.suiteTableData['Goibibo_Flight_TestSuite']= { tableData: data, tableDiv: 'times-div-Goibibo_Flight_TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Goibibo_Flight_TestSuite">
               </div> <!-- times-div-Goibibo_Flight_TestSuite -->
             </div> <!-- times-div -->
@@ -298,41 +259,39 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(Windows 10, chrome, https://www.goibibo.com/)</span>
-                <span class="method-start">132 ms</span>
+                <span class="method-start">129 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testWithFactoryPage</span>
-                <span class="method-start">3305 ms</span>
+                <span class="method-name">testGoibiboFlightTab(Jakarta, CGK, Denpasar, DPS, October, 10, November, 25, Business)</span>
+                <span class="method-start">3400 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=testWithFactoryPage status=FAILURE method=GoibiboPOMFramework.testWithFactoryPage()...)</span>
-                <span class="method-start">25025 ms</span>
+                <span class="method-name">afterMethod([TestResult name=testGoibiboFlightTab status=SUCCESS method=GoibiboPOMFramework.testGoibiboFlightTab...)</span>
+                <span class="method-start">6672 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">25237 ms</span>
+                <span class="method-start">6674 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(Windows 10, firefox, https://www.goibibo.com/)</span>
-                <span class="method-start">25382 ms</span>
+                <span class="method-start">6775 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testWithFactoryPage</span>
-                <span class="method-start">30296 ms</span>
+                <span class="method-name">testGoibiboFlightTab(Jakarta, CGK, Denpasar, DPS, October, 10, November, 25, Business)</span>
+                <span class="method-start">15754 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGoibiboFlightTab status=SUCCESS method=GoibiboPOMFramework.testGoibiboFlightTab...)</span>
+                <span class="method-start">22341 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">37719 ms</span>
+                <span class="method-start">22342 ms</span>
               </div> <!-- configuration-class after -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=testWithFactoryPage status=SUCCESS method=GoibiboPOMFramework.testWithFactoryPage()...)</span>
-                <span class="method-start">37719 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38326 ms</span>
+                <span class="method-start">22940 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

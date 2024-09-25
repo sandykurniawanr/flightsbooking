@@ -15,6 +15,8 @@ import org.testng.annotations.Parameters;
 import com.goibibo.flightsbooking.GoibiboHomeFactory;
 
 import extentreports.ExtentReportFactory;
+import utilities.Constants;
+import utilities.ExcelUtility;
 
 public class TestSuiteBase extends ExtentReportFactory{
 	protected static WebDriver driver;
@@ -27,6 +29,7 @@ public class TestSuiteBase extends ExtentReportFactory{
 		ExtentReportFactory.driver = driver;
 		test = extent.createTest("Goibibo Flight Tab Test");
 		homePage = new GoibiboHomeFactory(driver, test);
+		ExcelUtility.setExcelFile(Constants.File_Path + Constants.File_Name, "FlightSheets");
 	}
 	
 	public static WebDriver getRemoteDriverInstance(String platform, String browser, String url) throws Exception {

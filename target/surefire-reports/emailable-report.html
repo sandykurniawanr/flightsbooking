@@ -9,36 +9,14 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Goibibo-Flight TestSuite</th></tr>
-<tr><td><a href="#t0">Chrome Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">25,238</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Firefox Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12,942</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">38,180</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Chrome Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">6,639</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Firefox Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,163</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">22,802</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Goibibo-Flight TestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Chrome Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.goibibo.flightsbooking.GoibiboPOMFramework</td><td><a href="#m0">testWithFactoryPage</a></td><td rowspan="1">1726669916662</td><td rowspan="1">21714</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Firefox Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.goibibo.flightsbooking.GoibiboPOMFramework</td><td><a href="#m1">testWithFactoryPage</a></td><td rowspan="1">1726669943653</td><td rowspan="1">7422</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Goibibo-Flight TestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Chrome Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.goibibo.flightsbooking.GoibiboPOMFramework</td><td><a href="#m0">testGoibiboFlightTab</a></td><td rowspan="1">1727257915266</td><td rowspan="1">3270</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Firefox Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.goibibo.flightsbooking.GoibiboPOMFramework</td><td><a href="#m1">testGoibiboFlightTab</a></td><td rowspan="1">1727257927620</td><td rowspan="1">6587</td></tr></tbody>
 </table>
-<h2>Chrome Test</h2><h3 id="m0">com.goibibo.flightsbooking.GoibiboPOMFramework#testWithFactoryPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;sc-12foipm-2 eTBlJr fswFld &quot; style=&quot;width: 142px;&quot;&gt;...&lt;/div&gt; is not clickable at point (999, 260). Other element would receive the click: &lt;input type=&quot;text&quot; value=&quot;&quot;&gt;
-  (Session info: chrome=128.0.6613.138)
-Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [9115988de3aa192d6e134ec47929ef50, clickElement {id=f.7628CCA4EC787FA632FEEF9483F4DE0E.d.103524328E9564CA824753BB4B8E0A9E.e.99}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.56.1:4444/sess..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[RemoteWebDriver: chrome on Windows 10 (9115988de3aa192d6e134ec47929ef50)] -&gt; xpath: (//div[@class=&apos;sc-12foipm-2 eTBlJr fswFld &apos;])[3]]
-Session ID: 9115988de3aa192d6e134ec47929ef50
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
-	at com.goibibo.flightsbooking.GoibiboHomeFactory.clickFlightDeparture(GoibiboHomeFactory.java:121)
-	at com.goibibo.flightsbooking.GoibiboPOMFramework.testWithFactoryPage(GoibiboPOMFramework.java:17)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Firefox Test</h2><h3 id="m1">com.goibibo.flightsbooking.GoibiboPOMFramework#testWithFactoryPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Chrome Test</h2><h3 id="m0">com.goibibo.flightsbooking.GoibiboPOMFramework#testGoibiboFlightTab</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>Jakarta</td><td>CGK</td><td>Denpasar</td><td>DPS</td><td>October</td><td>10</td><td>November</td><td>25</td><td>Business</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Firefox Test</h2><h3 id="m1">com.goibibo.flightsbooking.GoibiboPOMFramework#testGoibiboFlightTab</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>Jakarta</td><td>CGK</td><td>Denpasar</td><td>DPS</td><td>October</td><td>10</td><td>November</td><td>25</td><td>Business</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

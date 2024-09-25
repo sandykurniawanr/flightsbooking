@@ -1,0 +1,334 @@
+15:25:59.905 DEBUG testng.TestNG -suiteXmlPath: "C:\Users\Sandy\AppData\Local\Temp\testng-eclipse--1669097427\testng-customsuite.xml"
+15:26:00.074 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+15:26:00.078 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:null] 1772797615
+15:26:00.078 TRACE internal.Graph -[Graph] ================ SORTING
+15:26:00.080 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:26:00.080 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:26:00.080 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:26:00.080 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+15:26:00.081 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.082 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:null] 461369334
+15:26:00.082 TRACE internal.Graph -[Graph] ================ SORTING
+15:26:00.082 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:26:00.082 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:26:00.082 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:26:00.082 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.083 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.083 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.083 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.083 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.084 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.084 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.setUp()[pri:0, instance:null] -893100299
+15:26:00.084 TRACE internal.Graph -[Graph] ================ SORTING
+15:26:00.084 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:26:00.084 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:26:00.084 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:26:00.084 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.085 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.085 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.afterClass()[pri:0, instance:null] -1776249642
+15:26:00.085 TRACE internal.Graph -[Graph] ================ SORTING
+15:26:00.085 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:26:00.085 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:26:00.086 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:26:00.086 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:26:00.086 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.086 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.087 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.087 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.088 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.088 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.089 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+15:26:00.089 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -2050893747
+15:26:00.089 TRACE internal.Graph -[Graph] ================ SORTING
+15:26:00.089 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:26:00.089 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:26:00.089 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:26:00.089 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.091 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.091 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@2b43529a] -152016437
+15:26:00.091 TRACE internal.Graph -[Graph] ================ SORTING
+15:26:00.091 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:26:00.091 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:26:00.091 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:26:00.091 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.091 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.091 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.092 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.092 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.testGoibiboFlightTab()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@2b43529a] -1234506414
+15:26:00.092 TRACE internal.Graph -[Graph] ================ SORTING
+15:26:00.092 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:26:00.092 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:26:00.092 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:26:00.092 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.093 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.093 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:26:00.093 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:26:00.094 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@2b43529a] 2143379812
+15:26:00.094 TRACE internal.Graph -[Graph] ================ SORTING
+15:26:00.094 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:26:00.094 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:26:00.094 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:26:00.094 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:26:00.099 INFO  internal.Utils -[TestNG] Running:
+  C:\Users\Sandy\AppData\Local\Temp\testng-eclipse--1669097427\testng-customsuite.xml
+
+15:26:00.242 INFO  internal.Utils -[Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+15:26:05.834 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.jq.Main@22d9bc14: 30 ms
+15:26:05.835 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.testGoibiboFlightTab()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@2b43529a] -1234506414
+15:26:05.835 TRACE internal.Graph -[Graph] ================ SORTING
+15:26:05.835 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:26:05.835 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:26:05.835 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:26:05.841 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.FailedReporter@3664f108: 7 ms
+15:26:05.846 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.XMLReporter@72503b19: 5 ms
+15:26:05.850 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.EmailableReporter2@43b5021c: 4 ms
+15:26:05.853 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3a90c13c: 3 ms
+15:26:05.853 INFO  internal.Utils -[TestNG] Time taken by org.testng.internal.ExitCodeListener@39c96e48: 0 ms
+15:30:21.977 DEBUG testng.TestNG -suiteXmlPath: "C:\Users\Sandy\AppData\Local\Temp\testng-eclipse-562429225\testng-customsuite.xml"
+15:30:22.123 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+15:30:22.128 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:null] 1772797615
+15:30:22.128 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:22.130 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:22.130 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:22.130 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:22.130 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+15:30:22.131 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.131 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:null] 461369334
+15:30:22.131 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:22.131 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:22.131 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:22.131 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:22.131 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:22.132 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.132 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:22.133 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.133 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:22.133 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.133 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.setUp()[pri:0, instance:null] -893100299
+15:30:22.133 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:22.134 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:22.134 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:22.134 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:22.134 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:30:22.134 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.135 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.afterClass()[pri:0, instance:null] -1776249642
+15:30:22.135 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:22.135 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:22.135 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:22.135 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:22.135 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:30:22.135 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.135 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:22.136 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.136 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:22.137 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.137 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:22.138 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+15:30:22.138 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -2050893747
+15:30:22.138 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:22.138 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:22.138 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:22.138 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:22.138 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:22.140 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.140 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@73db4768] 1065901721
+15:30:22.140 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:22.140 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:22.140 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:22.140 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:22.140 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:22.140 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.141 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:22.141 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.141 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.testGoibiboFlightTab()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@73db4768] -16588256
+15:30:22.141 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:22.141 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:22.141 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:22.141 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:22.141 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:22.142 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.142 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:22.142 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:22.143 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@73db4768] -933669326
+15:30:22.143 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:22.143 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:22.143 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:22.143 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:22.143 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:30:22.148 INFO  internal.Utils -[TestNG] Running:
+  C:\Users\Sandy\AppData\Local\Temp\testng-eclipse-562429225\testng-customsuite.xml
+
+15:30:22.291 INFO  internal.Utils -[Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+15:30:27.644 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.jq.Main@717d7587: 31 ms
+15:30:27.645 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.testGoibiboFlightTab()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@73db4768] -16588256
+15:30:27.645 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:27.645 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:27.645 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:27.645 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:27.651 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.FailedReporter@793d163b: 7 ms
+15:30:27.657 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.XMLReporter@767599a7: 6 ms
+15:30:27.661 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.EmailableReporter2@47e51549: 4 ms
+15:30:27.665 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@109f8c7e: 4 ms
+15:30:27.666 INFO  internal.Utils -[TestNG] Time taken by org.testng.internal.ExitCodeListener@5edacf20: 0 ms
+15:30:58.460 DEBUG testng.TestNG -suiteXmlPath: "C:\Users\Sandy\AppData\Local\Temp\testng-eclipse--439194756\testng-customsuite.xml"
+15:30:58.620 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+15:30:58.625 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:null] 1772797615
+15:30:58.625 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:58.627 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:58.627 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:58.627 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:58.627 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+15:30:58.628 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.628 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:null] 461369334
+15:30:58.628 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:58.628 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:58.628 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:58.628 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:58.628 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.629 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.629 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.630 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.630 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.630 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.631 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.setUp()[pri:0, instance:null] -893100299
+15:30:58.631 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:58.631 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:58.631 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:58.631 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:58.631 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:30:58.632 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+15:30:58.632 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.afterClass()[pri:0, instance:null] -1776249642
+15:30:58.632 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:58.632 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:58.632 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:58.632 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:58.632 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.633 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.633 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.633 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.633 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.634 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.635 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.635 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.635 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -2050893747
+15:30:58.635 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:58.635 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:58.635 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:58.635 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:58.636 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.637 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.638 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368] 530684569
+15:30:58.638 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:58.638 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:58.638 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:58.638 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:58.638 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:30:58.638 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.638 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.638 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.639 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.testGoibiboFlightTab()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368] -551805408
+15:30:58.639 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:58.639 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:58.639 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:58.639 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:58.639 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.640 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.640 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.640 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:30:58.640 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368] -1468886478
+15:30:58.640 TRACE internal.Graph -[Graph] ================ SORTING
+15:30:58.640 TRACE internal.Graph -[Graph] =============== DONE SORTING
+15:30:58.640 TRACE internal.Graph -[Graph] ====== SORTED NODES
+15:30:58.640 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+15:30:58.640 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:30:58.645 INFO  internal.Utils -[TestNG] Running:
+  C:\Users\Sandy\AppData\Local\Temp\testng-eclipse--439194756\testng-customsuite.xml
+
+15:30:58.787 INFO  internal.Utils -[Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+15:31:05.097 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.jq.Main@1fbf088b: 27 ms
+15:31:05.097 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.FailedReporter@1943c1f2: 0 ms
+15:31:05.102 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.XMLReporter@65a9ea3c: 5 ms
+15:31:05.106 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.EmailableReporter2@4a92c6a9: 4 ms
+15:31:05.108 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@58253c57: 2 ms
+15:31:05.108 INFO  internal.Utils -[TestNG] Time taken by org.testng.internal.ExitCodeListener@b73433: 0 ms
+16:29:31.212 DEBUG testng.TestNG -suiteXmlPath: "C:\Users\Sandy\AppData\Local\Temp\testng-eclipse-493447492\testng-customsuite.xml"
+16:29:31.378 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+16:29:31.383 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:null] 1772797615
+16:29:31.383 TRACE internal.Graph -[Graph] ================ SORTING
+16:29:31.385 TRACE internal.Graph -[Graph] =============== DONE SORTING
+16:29:31.385 TRACE internal.Graph -[Graph] ====== SORTED NODES
+16:29:31.385 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+16:29:31.385 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+16:29:31.386 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.386 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:null] 461369334
+16:29:31.387 TRACE internal.Graph -[Graph] ================ SORTING
+16:29:31.387 TRACE internal.Graph -[Graph] =============== DONE SORTING
+16:29:31.387 TRACE internal.Graph -[Graph] ====== SORTED NODES
+16:29:31.387 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+16:29:31.387 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+16:29:31.387 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.387 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:29:31.388 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.388 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:29:31.389 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.389 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.setUp()[pri:0, instance:null] -893100299
+16:29:31.389 TRACE internal.Graph -[Graph] ================ SORTING
+16:29:31.389 TRACE internal.Graph -[Graph] =============== DONE SORTING
+16:29:31.389 TRACE internal.Graph -[Graph] ====== SORTED NODES
+16:29:31.389 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+16:29:31.389 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:29:31.390 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.390 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.afterClass()[pri:0, instance:null] -1776249642
+16:29:31.390 TRACE internal.Graph -[Graph] ================ SORTING
+16:29:31.390 TRACE internal.Graph -[Graph] =============== DONE SORTING
+16:29:31.390 TRACE internal.Graph -[Graph] ====== SORTED NODES
+16:29:31.390 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+16:29:31.390 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:29:31.391 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.391 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:29:31.391 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.391 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:29:31.392 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.393 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:29:31.393 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.394 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.afterMethod(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:null] -2050893747
+16:29:31.394 TRACE internal.Graph -[Graph] ================ SORTING
+16:29:31.394 TRACE internal.Graph -[Graph] =============== DONE SORTING
+16:29:31.394 TRACE internal.Graph -[Graph] ====== SORTED NODES
+16:29:31.394 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+16:29:31.394 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+16:29:31.396 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.396 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.startReporter()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368] 530684569
+16:29:31.396 TRACE internal.Graph -[Graph] ================ SORTING
+16:29:31.397 TRACE internal.Graph -[Graph] =============== DONE SORTING
+16:29:31.397 TRACE internal.Graph -[Graph] ====== SORTED NODES
+16:29:31.397 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+16:29:31.397 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+16:29:31.397 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.397 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:29:31.397 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.398 TRACE internal.Graph -[Graph] ADDING NODE GoibiboPOM.testGoibiboFlightTab()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368] -551805408
+16:29:31.398 TRACE internal.Graph -[Graph] ================ SORTING
+16:29:31.398 TRACE internal.Graph -[Graph] =============== DONE SORTING
+16:29:31.398 TRACE internal.Graph -[Graph] ====== SORTED NODES
+16:29:31.398 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+16:29:31.398 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+16:29:31.399 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.399 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:29:31.399 INFO  internal.Utils -[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+16:29:31.399 TRACE internal.Graph -[Graph] ADDING NODE ExtentReportFactory.tearDown()[pri:0, instance:com.goibibo.flightsbooking.GoibiboPOM@53f48368] -1468886478
+16:29:31.399 TRACE internal.Graph -[Graph] ================ SORTING
+16:29:31.399 TRACE internal.Graph -[Graph] =============== DONE SORTING
+16:29:31.399 TRACE internal.Graph -[Graph] ====== SORTED NODES
+16:29:31.399 TRACE internal.Graph -[Graph] ====== END SORTED NODES
+16:29:31.399 INFO  internal.Utils -[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+16:29:31.404 INFO  internal.Utils -[TestNG] Running:
+  C:\Users\Sandy\AppData\Local\Temp\testng-eclipse-493447492\testng-customsuite.xml
+
+16:29:31.556 INFO  internal.Utils -[Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+16:29:37.441 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.jq.Main@1fbf088b: 28 ms
+16:29:37.442 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.FailedReporter@1943c1f2: 1 ms
+16:29:37.446 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.XMLReporter@65a9ea3c: 4 ms
+16:29:37.449 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.EmailableReporter2@4a92c6a9: 3 ms
+16:29:37.452 INFO  internal.Utils -[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@58253c57: 3 ms
+16:29:37.452 INFO  internal.Utils -[TestNG] Time taken by org.testng.internal.ExitCodeListener@b73433: 0 ms
